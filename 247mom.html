@@ -30,7 +30,7 @@
             </div>
             <div id="subscribeform">
                 <p> Get the free
-                    <span>247 Moms</span>
+                    <span class="bigText">247 Moms</span>
                     <br> newsletter delivered to your inbox
                 </p>
                 <input type="text" name="topsubscribe">
@@ -58,14 +58,18 @@
                 <br>
                 <h2>Sweeten a candle display</h2>
                 <img src="images/Easter+jelly-bean-hurricane-l1.jpg">
+               
                 <p> From: All You Magazine
+                    <br>
                     <br> Use the abundance of jelly beans to bring some color to the table. Place a glass hurricane on a plate
                     or pedestal. Center a pillar candle inside it. Fill the surrounding space 1″ high with one color of jellybeans,
                     then add a 1″ layer of a different color directly on top.
                 </p>
+                
                 <h2>Peeps Easter Centerpiece</h2>
-                <img src="images/easterflowers-300x2361.jpg">
+                <img id="peeps" src="images/easterflowers-300x2361.jpg">
                 <p> From: All You Magazine
+                    <br>
                     <br> Here’s what you’ll need:
                     <br>
                     <ul>
@@ -96,13 +100,15 @@
                             <br> If you’re looking for a quick & easy Easter craft/centerpiece idea, these Terra Cotta “Easter
                             Baskets” only take a few minutes and will look super cute on your Easter table! Added bonus:
                             they’re really inexpensive! All you need are small terra cotta pots in various sizes, scrapbook
-                            paper, “grass” filler, and any embellishments you want to add (optional). Click here for complete
-                            how to instructions
+                            paper, “grass” filler, and any embellishments you want to add (optional).
+                            <br>
+                            <br> Click here for complete how to instructions
                         </p>
 
                         <h2>Splendor in the Grass</h2>
                         <img src="images/Easter+daffodil-decoration-cupcake-tray-0410-lg1.jpg">
                         <p> From: Goodhouse Keeping
+                            <br>
                             <br> A mini-cupcake holder rises to the occasion when it’s repurposed as a seasonal accent. Just
                             insert pint-size pots plus blades of wheatgrass from a health-food store, alternating daffodils
                             with dyed eggs
@@ -156,33 +162,42 @@
 
         <div id="comment">
             <h2>Comments</h2>
-            <img src="images/d96cc89ab71645ec0a22c2f939810729.png"> Kerry says
-            <br> March 8, 2012 at 8:07 pm
-            <br> So amazingly simple and cute.
+            <img src="images/d96cc89ab71645ec0a22c2f939810729.png"> 
+            <br>
+            Kerry says
+            <br> 
+            March 8, 2012 at 8:07 pm
+            <br> 
+            <br>
+            So amazingly simple and cute.
+            <br> 
             <button id="purpleReply">Reply</button>
         </div>
 
-        <hr>
-
-        <div id="reply">
-            <h2>Leave a Reply</h2>
-            <p>Your email address will nont be published. Required fields are marked *</p>
-            <label for="replyComment">Comment</label>
-            <input id="replyComment" type="text" name="endPagecomment">
-            <label for="name">Name *</label>
-            <input id="name" class="replyInfo" type="text" name="name" />
-            <label for="email">Email *</label>
-            <input id="email" class="replyInfo" type="email" name="email" />
-            <label for="website">Website</label>
-            <input id="website" class="replyInfo" type="url" name="website" />
-            <button id="post">Post Comment</button>
-        </div>
-
+        <form>
+            <div id="reply">
+                <hr>
+                <h2>Leave a Reply</h2>
+                <p>Your email address will nont be published. Required fields are marked *</p>
+                <label for="replyComment">Comment</label><br>
+                <textarea id="replycomment" name="comment" cols="45" rows="8"></textarea><br>
+                
+                <!-- <input id="replyComment" type="text" name="endPagecomment"><br> -->
+                <label for="name">Name *</label><br>
+                <input id="name" class="replyInfo" type="text" name="name" /><br>
+                <label for="email">Email *</label><br>
+                <input id="email" class="replyInfo" type="email" name="email" /><br>
+                <label for="website">Website</label><br>
+                <input id="website" class="replyInfo" type="url" name="website" /><br>
+                <br>
+                <button id="post">Post Comment</button><br>
+            </div>
+        </form>
 
         <footer>
             <div id="copyright">
                 <p>Copyright &copy 2008-2018 24/7 Moms. All rights reserved.
-                    <br> Site Design by New Season Design |Original Logo Concept by Joy @ Five J's Design
+                    <br> Site Design by New Season Design | Original Logo Concept by Joy @ Five J's Design
                 </p>
             </div>
         </footer>

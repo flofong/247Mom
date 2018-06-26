@@ -4,7 +4,9 @@ body {
 }
 #wrapper{
     background-color: white;
+    margin: 0 80px 0 80px;
 }
+
 a {
     text-decoration: none;
     color: rgb(139, 74,101);
@@ -14,7 +16,10 @@ a {
     background-color: #FFC78F;
     text-align: right;  
 }
-
+#topnav a{
+    padding: 10px;
+   
+}
 
 #header {
     display: flex;
@@ -27,11 +32,25 @@ a {
      text-align: right;
      color: white;
      background-color: rgb(227, 124, 145);
+     width: 365px;
+     margin: 5px;
+     font-size: 20px; 
+}
+
+
+#subscribeform p{
+    margin: 20px; 
 }
 
 button{
     background-color: rgb(139, 74,101);
     color: white;
+    margin: 0px 20px 5px 5px;
+}
+
+.bigText{
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 #menu{
@@ -43,5 +62,40 @@ button{
 #contentBox{
     display: flex;
     flex-direction: row; 
+}
+#contentBox p{
+    font-size: 15px; 
+}
+img {
+    float: left; 
+    padding: 10px 20px 10px 20px; 
+}
 
+#peeps{
+    position: relative;
+}
+
+#content{
+    padding: 10px; 
+    line-height: 1.5em;
+}
+
+#reply{
+    width: 700px;
+    padding: 0px 0px 10px 15px;
+    line-height: 1.5em;
+}
+
+#comment{
+    line-height: 1.5em; 
+    padding: 5px 5px 0 10px; 
+}
+    
+
+#copyright{
+    text-align: center; 
+    background-color: #BFDCCB;
+    padding: 20px;
+    font-size: 13px;
+    line-height: 2em;
 }
