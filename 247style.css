@@ -1,0 +1,43 @@
+body {
+    background-color: #D8CBBC;
+    font-family: 'Cabin', Arial, sans-serif;
+}
+#wrapper{
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: rgb(139, 74,101);
+}
+
+#topnav{
+    background-color: #FFC78F;
+    text-align: right;  
+}
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#subscribeform {
+     text-align: right;
+     color: white;
+     background-color: rgb(227, 124, 145);
+}
+
+button{
+    background-color: rgb(139, 74,101);
+    color: white;
+}
+
+#menu{
+    background-color: rgb(191, 220, 204);
+    color: rgb(139, 74,101);
+    display:flex;
+    justify-content: space-around;
+}
+
