@@ -40,4 +40,8 @@ button{
     display:flex;
     justify-content: space-around;
 }
+#contentBox{
+    display: flex;
+    flex-direction: row; 
 
+}
