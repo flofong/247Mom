@@ -103,12 +103,19 @@ img {
 #sidebar {
     padding: 20px;
     margin: 20px;
-    width: 1100px
+    width: 1170px
 }
 
 #giveawayHeader {
     background-color: #FFC78F;
     /* padding: 0px 10px 0px 20px; */
+    
+}
+#giveaway p{
+    font-size: 13px;
+}
+#giveaway a{
+    font-size: 13px;
 }
 #stockImage {
     width: 75px;
@@ -117,6 +124,10 @@ img {
 #tableHeader {
     background-color: #FFC78F;
     /* padding: 0px 10px 0px 20px; */
+
+}
+#tableTalk p{
+    font-size: 13px;
 }
 
 #subscribe {
