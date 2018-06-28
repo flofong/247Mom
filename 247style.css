@@ -33,9 +33,10 @@ a {
      text-align: right;
      color: white;
      background-color: rgb(227, 124, 145);
-     width: 365px;
+     width: 450px;
+     height: 135px;
      margin: 5px;
-     font-size: 20px; 
+     font-size: 25px; 
 }
 
 
@@ -46,11 +47,13 @@ a {
 button{
     background-color: rgb(139, 74,101);
     color: white;
-    margin: 0px 20px 5px 5px;
+    
+    padding: 10px 20px 10px 20px;
+    border: none;
 }
 
 .bigText{
-    font-size: 30px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
@@ -167,11 +170,14 @@ img {
     width: 700px;
     line-height: 2em;
 }
-button {
-    padding: 10px 20px 10px 20px;
-    border: none;
+.bottomButtons {
+    margin: 0px 20px 5px 5px; 
 }
 #topsubscribe {
     height:25px;
     width:200px;
+}
+
+#reply hr{
+    border: lightgrey 1px dashed;
 }
