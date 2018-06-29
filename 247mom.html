@@ -9,17 +9,25 @@
     <link rel="stylesheet" type="text/css" href="247style.css" />
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <script src="main.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
 </head>
 
 <body>
     <div id="wrapper">
         <div id="topnav">
-            <a href="https:247mom.com">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            <a href="#reviews">Reviews</a>
-            <a href="#mediakit">Media Kit</a>
+            <a class="topA" href="https:247mom.com">Home</a>
+            <div class="popUp">
+                <a class="topA" href="#about">About</a>
+                <div id="topDrop">
+                    <a href="#">
+                        <div class="topItems">Privacy Policy</div>
+                    </a>
+                </div>
+            </div>
+            <a class="topA" href="#contact">Contact</a>
+            <a class="topA" href="#reviews">Reviews</a>
+            <a class="topA" href="#mediakit">Media Kit</a>
         </div>
 
         <div id="header">
@@ -33,24 +41,53 @@
                 <p> Get the free
                     <span class="bigText">247 Moms</span>
                     <br> newsletter delivered to your inbox
-                    <input type="text" name="topsubscribe" id="topsubscribe" placeholder="Enter your email address"
-                aria-label="Search through site content" size="50">
-                <button id="topSubmit">Subscribe</button>
+                    <input type="text" name="topsubscribe" id="topsubscribe" placeholder="Enter your email address" aria-label="Search through site content"
+                        size="50">
+                    <button id="topSubmit">Subscribe</button>
                 </p>
-                
+
             </div>
 
         </div>
 
         <div id="menu">
-            <a href="#giveaway"><img class="menuPic" src="images/giveaways.png"></a>
-            <a href="#homekeeping"><img id="hKeeping" class="menuPic" src="images/Home Keeping.png"></a>
-            <a href="#parenting"><img class="menuPic" src="images/parenting.png"></a>
-            <a href="#celebrations"><img class="menuPic" src="images/celebrations.png"></a>
-            <a href="#mealTime"><img class="menuPic" src="images/meal time.png"></a>
-            <a href="#frugalLiving"><img class="menuPic" src="images/frugal living.png"></a>
-            <a href="#marriage"><img class="menuPic" src="images/marriage.png"></a>
-            <a href="#inspiration"><img class="menuPic" src="images/inspiration.png"></a>
+            <div class="popUp2">
+                <a id="giveawayDrop" href="#giveaway">
+                    <img class="menuPic" src="images/giveaways.png">
+                </a>
+                <div class="dropLists">
+                    <a href="#">
+                        <div class="dropItems">APP Reviews</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropItems">Book Reviews</div>
+                    </a>
+                    <a href="#">
+                        <div class="dropItems">Product Reviews</div>
+                    </a>
+                </div>
+            </div>
+            <a href="#homekeeping">
+                <img id="hKeeping" class="menuPic" src="images/Home Keeping.png">
+            </a>
+            <a href="#parenting">
+                <img class="menuPic" src="images/parenting.png">
+            </a>
+            <a href="#celebrations">
+                <img class="menuPic" src="images/celebrations.png">
+            </a>
+            <a href="#mealTime">
+                <img class="menuPic" src="images/meal time.png">
+            </a>
+            <a href="#frugalLiving">
+                <img class="menuPic" src="images/frugal living.png">
+            </a>
+            <a href="#marriage">
+                <img class="menuPic" src="images/marriage.png">
+            </a>
+            <a href="#inspiration">
+                <img class="menuPic" src="images/inspiration.png">
+            </a>
         </div>
 
         <!-- Below make a flex box -->
@@ -120,16 +157,22 @@
                         Filed Under: Celebrations, Easter
             </div>
             <div id="sidebar">
-                    <i class="fas fa-search"></i><input id="siteSearch" type="search" name="q" placeholder="Search 24/7 Moms...">
+                <i class="fas fa-search"></i>
+                <input id="siteSearch" type="search" name="q" placeholder="Search 24/7 Moms...">
                 <br>
                 <div id="subscribe">
-                    <a href="#subemail"><img class="icons" src="images/if_Rounded-07_2024667.png">Subscribe by Email</a>
-                    <a href="#subRss"><img class="icons" src="images/if_rss_2136491.png">Subscribe by RSS</a>
+                    <a href="#subemail">
+                        <img class="icons" src="images/if_Rounded-07_2024667.png">Subscribe by Email</a>
+                    <a href="#subRss">
+                        <img class="icons" src="images/if_rss_2136491.png">Subscribe by RSS</a>
                 </div>
                 <div id="socialMedia">
-                    <a href="#pinterest"><img class="icons" src="images/if_pinterest_2308052.png">Pinterest</a>
-                    <a href="#facebook"><img class="icons" src="images/if_facebook_2308066.png">Facebook</a>
-                    <a href="#twitter"><img class="icons" src="images/if_twitter_2308045.png">Twitter</a>
+                    <a href="#pinterest">
+                        <img class="icons" src="images/if_pinterest_2308052.png">Pinterest</a>
+                    <a href="#facebook">
+                        <img class="icons" src="images/if_facebook_2308066.png">Facebook</a>
+                    <a href="#twitter">
+                        <img class="icons" src="images/if_twitter_2308045.png">Twitter</a>
                 </div>
 
                 <div id="giveaway">
