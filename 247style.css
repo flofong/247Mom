@@ -4,7 +4,7 @@ body {
 }
 #wrapper{
     background-color: white;
-    margin: 0 80px 0 80px;
+    margin: -10px 80px 0px 80px;
 }
 
 #topnav a:hover {
@@ -20,7 +20,7 @@ body {
     padding: 5px 10px 5px 10px;
 }
 .topA {
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     text-decoration: none;
     color: rgb(139, 74,101);
 }
@@ -99,8 +99,8 @@ button{
 
 #comment{
     line-height: 1.5em; 
-    padding: 5px 5px 0 10px; 
-    margin: 10px;
+    padding: 5px 5px 0 15px; 
+    margin: 10px 10px 10px 25px;
 }
     
 
@@ -288,4 +288,17 @@ a {
 .topItems:hover{
     color: rgb(139, 74,101);
     background-color: #FFC78F;
+}
+
+.purpleLink {
+    text-decoration: none;
+    color: rgb(139, 74,101);
+}
+
+.bullLink {
+    font-size: 18px;
+    text-emphasis: bold;
+}
+#giveP {
+    margin: -10px 0 0 0;
 }
