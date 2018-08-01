@@ -38,10 +38,11 @@ body {
      text-align: right;
      color: white;
      background-color: rgb(227, 124, 145);
-     width: 450px;
+     width: 475px;
      height: 135px;
      margin: 5px;
      font-size: 25px; 
+     padding: 0 0 10px 0;
 }
 
 
@@ -244,7 +245,7 @@ a {
 .dropLists {
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
+    /* align-content: flex-start; */
     width: 200px;
 }
 
@@ -279,6 +280,7 @@ a {
 .popUp:hover #topDrop {
     display: block;
     position: absolute;
+    top: 35px;
 }
 
 .topItems {
